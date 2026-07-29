@@ -50,7 +50,32 @@ print(type('Philippines'))
 # Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. 
 # Remember to use print() when you are working on a python file. 
 # Navigate to the directory where you have saved your file, and run it.
+# ALREADY DONE
 
 # Day 1, Exercise Level 3
-# Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
+# Write an example for different Python data types such as:
+# Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
+my_int = 3
+my_float = 0.96
+my_complex = 5-10j
+
+my_string = 'day1string'
+my_boolean = True
+
+my_list = ['apple','oranges',1611,'banana']
+my_tuple = ('UCB','UCLA',1919,'USC')
+my_set = {'green','yellow','blue'}
+my_dict = {'quote1':'Hello there!','quote 2':'Hello, indeed.'}
+
+print(my_int)
+print(my_float)
+print(my_complex)
+
+print(my_string)
+print(my_boolean)
+print(my_list)
 # Find an Euclidean distance between (2, 3) and (10, 8)
+x1,y1 = 2,3
+x2,y2 = 10,8
+euclidean_distance = ((x2-x1)**2 + (y2-y1)**2)**0.5
+print('Euclidean Distance between (2, 3) and (10, 8):', f'{euclidean_distance:.2f}') 
