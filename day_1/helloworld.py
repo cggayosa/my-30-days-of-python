@@ -13,7 +13,7 @@ print('Subtraction: ', 3-4)
 print('Multiplication: ', 3*4)
 # Division (/)
 print('Division: ', 3/4)
-# Exponential (**)
+# Exponential (**) 
 print('Exponential: ', 3**4)
 
 # 3. Write strings on the python interactive shell. The strings are the following
